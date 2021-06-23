@@ -6,7 +6,7 @@ window_width = 500
 rows = 4
 cols = 4
 window_ratio = cols / rows
-window_height = window_width / window_ratio
+window_height = int(window_width / window_ratio)
 
 # Set up a window
 game_window = pyglet.window.Window(window_width, window_height)
